@@ -23,5 +23,25 @@
     </style>
   </head>
   <body>
+    <platinum-sw-register
+    auto-register
+    skip-waiting
+    clients-claim
+    reload-on-install
+    href="sw-import.js">
+  <platinum-sw-cache
+      default-cache-strategy="networkFirst">
+  </platinum-sw-cache>
+</platinum-sw-register>
+
+<firebase-app
+  name="Mie's Note App"
+  api-key="AIzaSyDI5lMf2oE_5RlUb0hVt-cBn3AfAy1Yynk"
+  auth-domain="note-app-83bf9.firebaseapp.com"
+  database-url="https://note-app-83bf9.firebaseio.com">
+</firebase-app>
+
+  <note-app></note-app>
+  
   </body>
 </html>

@@ -1,0 +1,3 @@
+[submodule "public/bower_components/platinum-sw"]
+	path = public/bower_components/platinum-sw
+	url = https://github.com/PolymerElements/platinum-sw
